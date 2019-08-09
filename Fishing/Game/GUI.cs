@@ -26,7 +26,7 @@ namespace Fishing
                         Height = 20,
                         TextAlign = ContentAlignment.MiddleCenter,
                         Width = 20,
-                        Visible = false
+                        Visible = false,
 
                     };
 
@@ -34,6 +34,7 @@ namespace Fishing
                     LVL.Larr[x, y].MouseClick += GUI_MouseClick;
                 }
             }
+            Sounder sounder = new Sounder(SounderPanel, SounderUpdater);
         }
 
         private void MapLabel_Click(object sender, EventArgs e)
@@ -82,9 +83,6 @@ namespace Fishing
                         Game.CastPoint = PointToClient(Cursor.Position);
                         Point between = new Point(Game.CastPoint.X - LVL.Larr[x, y].Location.X, Game.CastPoint.Y - LVL.Larr[x, y].Location.Y);
                         float distance = (float)Math.Sqrt(between.X * between.X + between.Y * between.Y);
-                        if (distance < 10) DeepLabel.Text = LVL.Larr[x, y].Tag.ToString();
-                        Game.Deep = Convert.ToInt32(DeepLabel.Text);
-
                     }
                 }
 
@@ -95,7 +93,7 @@ namespace Fishing
 
         private void GUI_Load(object sender, EventArgs e)
         {
-
+            SounderPanel.BackColor = Color.Aquamarine;
         }
     }
 }

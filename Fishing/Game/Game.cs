@@ -6,13 +6,14 @@ using System.Windows.Forms;
 
 namespace Fishing
 {
-    class Game
+    public class Game
     {
         public const string NO_BAIT_EQUIPED = "Не назначена наживка";
         public const string NO_LURE_EQUIPED = "Не назначена приманка";
         public static bool isBaitMoving = false;
         public static OzeroForm ozeroForm = new OzeroForm();
         public static Point CastPoint;
+        public static int index = 0; 
         public static Random fishMovingX = new Random();
         public static Random fishMovingY = new Random();
         public static Random randomWeigth = new Random();

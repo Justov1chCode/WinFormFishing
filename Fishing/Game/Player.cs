@@ -15,10 +15,10 @@ namespace Fishing
         public int RoadPower { get; set; } = 2000;
         public int LeskaPower { get; set; } = 1500;
         public int ReelPower { get; set; } = 3;
-        public Road proad;
-        public Reel reel;
-        public FLine fline;
-        public Lure lure;
+        public Road proad = Road.Titanium;
+        public Reel reel = Reel.Zymix;
+        public FLine fline = FLine.Quest_Fishers;
+        public Lure lure = Lure.jelezo4;
         private Player()
         {
         }

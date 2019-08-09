@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.EventsBox = new System.Windows.Forms.ListBox();
             this.DeepLabel = new System.Windows.Forms.Label();
             this.TextDeepLabel = new System.Windows.Forms.Label();
@@ -45,6 +46,8 @@
             this.MoneyLabel = new System.Windows.Forms.Label();
             this.SettingLabel = new System.Windows.Forms.Label();
             this.MapLabel = new System.Windows.Forms.Label();
+            this.SounderPanel = new System.Windows.Forms.Panel();
+            this.SounderUpdater = new System.Windows.Forms.Timer(this.components);
             this.LowerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SpeedBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BaitsPicture)).BeginInit();
@@ -247,6 +250,19 @@
             this.MapLabel.Text = "Карта";
             this.MapLabel.Click += new System.EventHandler(this.MapLabel_Click);
             // 
+            // SounderPanel
+            // 
+            this.SounderPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SounderPanel.Location = new System.Drawing.Point(0, 85);
+            this.SounderPanel.Name = "SounderPanel";
+            this.SounderPanel.Size = new System.Drawing.Size(171, 120);
+            this.SounderPanel.TabIndex = 22;
+            // 
+            // SounderUpdater
+            // 
+            this.SounderUpdater.Enabled = true;
+            this.SounderUpdater.Interval = 10;
+            // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -254,6 +270,7 @@
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1033, 716);
             this.ControlBox = false;
+            this.Controls.Add(this.SounderPanel);
             this.Controls.Add(this.TextDeepLabel);
             this.Controls.Add(this.DeepLabel);
             this.Controls.Add(this.LowerPanel);
@@ -300,5 +317,7 @@
         protected internal System.Windows.Forms.Label DeepLabel;
         private System.Windows.Forms.Label TextDeepLabel;
         protected internal System.Windows.Forms.TrackBar SpeedBar;
+        private System.Windows.Forms.Panel SounderPanel;
+        private System.Windows.Forms.Timer SounderUpdater;
     }
 }

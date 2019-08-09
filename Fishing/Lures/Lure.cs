@@ -21,6 +21,7 @@ namespace Fishing
         XL,
         Small,
         Large
+
     }
     class Lure
     {
@@ -29,6 +30,7 @@ namespace Fishing
         public int Price;
         public Bitmap pic;
         public LureType type;
+
         public Lure(string name, LureType type, int count, int price, Bitmap Pic)
         {
             Name = name;

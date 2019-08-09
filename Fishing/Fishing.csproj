@@ -75,6 +75,7 @@
     <Compile Include="Game\FPondForm.Designer.cs">
       <DependentUpon>FPondForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Items\Sounder.cs" />
     <Compile Include="LVLS\Ozero\LVL1.cs" />
     <Compile Include="LVLS\Ozero\OzeroForm.cs">
       <SubType>Form</SubType>

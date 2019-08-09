@@ -71,28 +71,27 @@ namespace Fishing
         {
             for (int x = 0; x < 51; x++)
             {
-                for (int y = 0; y < 15; y++)
+                for (int y = 0; y < 18; y++)
                 {
-
                 }
-                Larr[x, 0].Tag = 450;
-                Larr[x, 1].Tag = 400;
+                Larr[x, 0].Tag = 340;
+                Larr[x, 1].Tag = 340;
                 Larr[x, 2].Tag = 360;
-                Larr[x, 3].Tag = 400;
-                Larr[x, 4].Tag = 500;
-                Larr[x, 5].Tag = 600;
-                Larr[x, 6].Tag = 200;
-                Larr[x, 7].Tag = 360;
-                Larr[x, 8].Tag = 400;
-                Larr[x, 9].Tag = 350;
-                Larr[x, 10].Tag = 330;
-                Larr[x, 11].Tag = 200;
-                Larr[x, 12].Tag = 200;
-                Larr[x, 13].Tag = 90;
-                Larr[x, 14].Tag = 90;
-                Larr[x, 15].Tag = 80;
-                Larr[x, 16].Tag = 80;
-                Larr[x, 17].Tag = 80;
+                Larr[x, 3].Tag = 380;
+                Larr[x, 4].Tag = 450;
+                Larr[x, 5].Tag = 500;
+                Larr[x, 6].Tag = 550;
+                Larr[x, 7].Tag = 600;
+                Larr[x, 8].Tag = 600;
+                Larr[x, 9].Tag = 540;
+                Larr[x, 10].Tag = 470;
+                Larr[x, 11].Tag = 440;
+                Larr[x, 12].Tag = 370;
+                Larr[x, 13].Tag = 320;
+                Larr[x, 14].Tag = 250;
+                Larr[x, 15].Tag = 200;
+                Larr[x, 16].Tag = 150;
+                Larr[x, 17].Tag = 150;
 
             }
         }                          //Устанавливаем глубину                         

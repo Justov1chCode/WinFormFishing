@@ -93,3 +93,22 @@ C:\Users\Даня\Desktop\Новая папка\Fishing\Fishing\bin\Debug\Fishin
 C:\Users\Даня\Desktop\Новая папка\Fishing\Fishing\bin\Debug\Fishing.exe
 C:\Users\Даня\Desktop\Новая папка\Fishing\Fishing\bin\Debug\Fishing.pdb
 C:\Users\Даня\Desktop\Fishing\Fishing\obj\Debug\Fishing.OzeroForm.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\bin\Debug\Fishing.exe.config
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\bin\Debug\Fishing.exe
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\bin\Debug\Fishing.pdb
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.csprojAssemblyReference.cache
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.GUI.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.CurrentFish.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.fishesForm.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.OzeroForm.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.Inventory.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.Menu.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.Ozero.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.Properties.Resources.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.Resource1.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.SettingsForm.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.Shop.resources
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.csproj.GenerateResource.cache
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.csproj.CoreCompileInputs.cache
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.exe
+C:\Users\Даня\Desktop\WinFormFishing\Fishing\obj\Debug\Fishing.pdb
