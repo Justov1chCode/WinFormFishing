@@ -10,7 +10,7 @@ namespace Fishing
 {
     abstract class LVL
     {
-        public static Label[,] Larr = new Label[51, 18];
+        public static Label[,] Deeparr = new Label[51, 18];
         protected List<Fish> fishes = new List<Fish>(1000);
         public abstract void addFishes();
 
@@ -76,51 +76,51 @@ namespace Fishing
             Game.currentFish = new CurrentFish();
             if (Fish.CFish is Pike)
             {
-                Game.currentFish.FishImage.Image = Resource1.pike1;
+                Game.currentFish.FishImage.Image = Resource1.PIKE;
             }
             if (Fish.CFish is Perch)
             {
-                Game.currentFish.FishImage.Image = Resource1.okyn;
+                Game.currentFish.FishImage.Image = Resource1.PERCH;
             }
             if (Fish.CFish is PinkSalmon)
             {
-                Game.currentFish.FishImage.Image = Resource1.gorbusha;
+                Game.currentFish.FishImage.Image = Resource1.GORBUSHA;
             }
             if (Fish.CFish is ArcticChar)
             {
-                Game.currentFish.FishImage.Image = Resource1.golec1;
+                Game.currentFish.FishImage.Image = Resource1.GOLEC1;
             }
             if(Fish.CFish is Grayling)
             {
-                Game.currentFish.FishImage.Image = Resource1.xariysS;
+                Game.currentFish.FishImage.Image = Resource1.XARIYS;
             }
             if (Fish.CFish is Salmon)
             {
-                Game.currentFish.FishImage.Image = Resource1.semga;
+                Game.currentFish.FishImage.Image = Resource1.SEMGA;
             }
             if (Fish.CFish is Trout)
             {
-                Game.currentFish.FishImage.Image = Resource1.forel;
+                Game.currentFish.FishImage.Image = Resource1.FOREL;
             }
             if(Fish.CFish is SilverCarp)
             {
-                Game.currentFish.FishImage.Image = Resource1.karass;
+                Game.currentFish.FishImage.Image = Resource1.KARASS;
             }
             if (Fish.CFish is Bream)
             {
-                Game.currentFish.FishImage.Image = Resource1.lesh;
+                Game.currentFish.FishImage.Image = Resource1.LESH;
             }
             if (Fish.CFish is Cancer)
             {
-                Game.currentFish.FishImage.Image = Resource1.rak;
+                Game.currentFish.FishImage.Image = Resource1.RAK;
             }
             if (Fish.CFish is Roach)
             {
-                Game.currentFish.FishImage.Image = Resource1.plotva;
+                Game.currentFish.FishImage.Image = Resource1.PLOTVA;
             }
             if (Fish.CFish is Vimba)
             {
-                Game.currentFish.FishImage.Image = Resource1.ribec;
+                Game.currentFish.FishImage.Image = Resource1.RIBEC;
             }
             Game.currentFish.NameLabel.Text = Fish.CFish.name;
             Game.currentFish.WeightLabel.Text = Fish.CFish.weight.ToString();

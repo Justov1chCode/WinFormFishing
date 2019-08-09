@@ -14,11 +14,11 @@ namespace Fishing
         {
             Power = power;
         }
-        public static Reel Hydra = new Reel("Hydra", 3, 100000, Resource1.Hydra);
-        public static Reel Marco_R1 = new Reel("Marco_R1", 6, 200000, Resource1.Marco_R1);
-        public static Reel Quest_Reel = new Reel("Quest_Reel", 6, 400000, Resource1.Quest_Reel);
-        public static Reel Marco_R6 = new Reel("Marco_R6", 8, 600000, Resource1.Marco_R6);
-        public static Reel Zymix = new Reel("Zymix", 10, 400000, Resource1.Zymix);
+        public static Reel Hydra = new Reel("Hydra", 3, 100000, Resource1.HYDRA);
+        public static Reel Marco_R1 = new Reel("Marco_R1", 6, 200000, Resource1.MARCO_R1);
+        public static Reel Quest_Reel = new Reel("Quest_Reel", 6, 400000, Resource1.QUEST_REEL);
+        public static Reel Marco_R6 = new Reel("Marco_R6", 8, 600000, Resource1.MARCO_R6);
+        public static Reel Zymix = new Reel("Zymix", 10, 400000, Resource1.ZYMIX);
 
         public override string ToString()
         {

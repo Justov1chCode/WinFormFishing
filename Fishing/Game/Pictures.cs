@@ -11,7 +11,7 @@ namespace Fishing
     {
         public static Bitmap brokenRoad = new Bitmap(Resource1.broken);
         public static Bitmap netting = new Bitmap(Resource1.podsak);
-        public static Bitmap road = Resource1.road;
-        public static Bitmap roadMaxBend = Resource1.road2;
+        public static Bitmap road = Resource1.ROAD;
+        public static Bitmap roadMaxBend = Resource1.ROAD2;
     }
 }

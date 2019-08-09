@@ -47,11 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Baits\Baits.cs" />
     <Compile Include="Fishes\Beluga.cs" />
     <Compile Include="Fishes\Catfish.cs" />
     <Compile Include="Fishes\Fish.cs" />
-    <Compile Include="Baits\FishMeat.cs" />
     <Compile Include="Fishes\Trout.cs" />
     <Compile Include="Game\Assembly.cs" />
     <Compile Include="Game\Game.cs" />
@@ -76,7 +74,6 @@
       <DependentUpon>FPondForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Items\Sounder.cs" />
-    <Compile Include="LVLS\Ozero\LVL1.cs" />
     <Compile Include="LVLS\Ozero\OzeroForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,14 +88,12 @@
     </Compile>
     <Compile Include="Items\Item.cs" />
     <Compile Include="Lures\Iron.cs" />
-    <Compile Include="Baits\Zywiec.cs" />
     <Compile Include="Fishes\SilverCarp.cs" />
     <Compile Include="Fishes\Bream.cs" />
     <Compile Include="Items\FLine.cs" />
     <Compile Include="Lures\Lure.cs" />
     <Compile Include="LVLS\LVL.cs" />
     <Compile Include="LVLS\Ozero\LVL2.cs" />
-    <Compile Include="Baits\Pray.cs" />
     <Compile Include="Game\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,7 +101,6 @@
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Fishes\Perch.cs" />
-    <Compile Include="Baits\Maggot.cs" />
     <Compile Include="Fishes\Sturgeon.cs" />
     <Compile Include="LVLS\Ozero\Map.cs">
       <SubType>Form</SubType>
@@ -144,7 +138,6 @@
     </Compile>
     <Compile Include="Game\Sounds.cs" />
     <Compile Include="Lures\Wobbler.cs" />
-    <Compile Include="Baits\Worm.cs" />
     <Compile Include="Fishes\Grayling.cs" />
     <EmbeddedResource Include="Game\GUI.resx">
       <DependentUpon>GUI.cs</DependentUpon>

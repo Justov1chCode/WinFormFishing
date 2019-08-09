@@ -25,31 +25,30 @@ namespace Fishing
     }
     class Lure
     {
-        public string Name;
-        public int Count;
-        public int Price;
+        public string name;
+        public int count;
+        public int price;
         public Bitmap pic;
         public LureType type;
 
-        public Lure(string name, LureType type, int count, int price, Bitmap Pic)
+        public Lure(string name, LureType type, int count, int price, Bitmap pic)
         {
-            Name = name;
+            this.name = name;
             this.type = type;
-            Count = count;
-            Price = price;
-            pic = Pic;
+            this.count = count;
+            this.price = price;
+            this.pic = pic;
         }
-        public static Wobbler vob1 = new Wobbler("Составник", LureType.FlyingLarge, 1, 3000, Resource1.Vob_3015);
-        public static Wobbler vob2 = new Wobbler("Воб2", LureType.FlyingSmall, 1, 3000, Resource1.Vob_3002);
-        public static Wobbler vob3 = new Wobbler("Воб3", LureType.FlyingSmall, 1, 3000, Resource1.Vob_3001);
-        public static Wobbler vob4 = new Wobbler("Воб4", LureType.FlyingXL, 1, 3000, Resource1.Vob_3003);
-        public static Iron jelezo1 = new Iron("Вертушка 1", LureType.XL, 1, 500, Resource1.Circl_5103);
-        public static Iron jelezo2 = new Iron("Вертушка 2", LureType.Small, 1, 500, Resource1.Circl_5113);
-        public static Iron jelezo3 = new Iron("Колебалка 1", LureType.XL, 1, 500, Resource1.Vib_6000);
-        public static Iron jelezo4 = new Iron("Колебалка 1", LureType.XL, 1, 500, Resource1.Vib_6008);
+        public static Wobbler vob1 = new Wobbler("Составник", LureType.FlyingLarge, 1, 3000, Resource1.VOB1);
+        public static Wobbler vob2 = new Wobbler("Воблер 2", LureType.FlyingSmall, 1, 3000, Resource1.VOB3);
+        public static Wobbler vob3 = new Wobbler("Воблер 3", LureType.FlyingSmall, 1, 3000, Resource1.VOB2);
+        public static Wobbler vob4 = new Wobbler("Воблер 4", LureType.FlyingXL, 1, 3000, Resource1.VOB4);
+        public static Iron jelezo2 = new Iron("Вертушка 2", LureType.Small, 1, 500, Resource1.CIRCLE1);
+        public static Iron jelezo3 = new Iron("Колебалка 1", LureType.XL, 1, 500, Resource1.VIB1);
+        public static Iron jelezo4 = new Iron("Колебалка 1", LureType.XL, 1, 500, Resource1.VIB2);
         public override string ToString()
         {
-            return this.Name;
+            return this.name;
         }
     }
 }

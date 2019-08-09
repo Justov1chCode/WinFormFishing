@@ -23,7 +23,7 @@ namespace Fishing
         {
             X = x;
         }
-        public Sounder(Panel sounder, Timer timer) : base ("Эхолот", 100000, Resource1.boil)
+        public Sounder(Panel sounder, Timer timer) : base ("Эхолот", 100000, Resource1.DRACO_FD)
         {
             this.sounder = sounder;
             this.sounderUpdater = timer;
@@ -44,8 +44,8 @@ namespace Fishing
             for (int i = 0; i < 17; i++)
             {
                 drawX2 = drawX + 10;
-                g.DrawLine(new Pen(Color.Black, 1), drawX, (int)LVL.Larr[Y, i].Tag / 10, drawX2,
-                                                                        (int)LVL.Larr[Y, i + 1].Tag / 10);
+                g.DrawLine(new Pen(Color.Black, 1), drawX, (int)LVL.Deeparr[Y, i].Tag / 10, drawX2,
+                                                                        (int)LVL.Deeparr[Y, i + 1].Tag / 10);
                 drawX = drawX2;
             }
             if (Player.getPlayer().lure.type == LureType.FlyingLarge 

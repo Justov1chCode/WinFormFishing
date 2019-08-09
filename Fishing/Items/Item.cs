@@ -15,8 +15,6 @@ namespace Fishing
         public static List<Road> RoadInv = new List<Road>();
         public static List<Reel> ReelInv = new List<Reel>();
         public static List<FLine> LeskaInv = new List<FLine>();
-        public static List<Baits> BaitsShop = new List<Baits>();
-        public static List<Baits> BaitsInv = new List<Baits>();
         public static List<Lure> LureShop = new List<Lure>();
         public static List<Lure> LureInv = new List<Lure>();
         public string Name;

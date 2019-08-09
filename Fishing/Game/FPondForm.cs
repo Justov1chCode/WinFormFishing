@@ -28,29 +28,29 @@ namespace Fishing
             try
             {
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is ArcticChar)
-                    FishImage.Image = Resource1.golec;
+                    FishImage.Image = Resource1.GOLEC;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Perch)
-                    FishImage.Image = Resource1.okyn;
+                    FishImage.Image = Resource1.PERCH;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is PinkSalmon)
-                    FishImage.Image = Resource1.gorbysha;
+                    FishImage.Image = Resource1.GORBUSHA;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Pike)
-                    FishImage.Image = Resource1.pike1;
+                    FishImage.Image = Resource1.PIKE;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Sturgeon)
-                    FishImage.Image = Resource1.osetr;
+                    FishImage.Image = Resource1.OSETR;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Beluga)
-                    FishImage.Image = Resource1.beluga;
+                    FishImage.Image = Resource1.BELUGA;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Catfish)
-                    FishImage.Image = Resource1.catfish;
+                    FishImage.Image = Resource1.CATFISH;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Roach)
-                    FishImage.Image = Resource1.plotva;
+                    FishImage.Image = Resource1.PLOTVA;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is SilverCarp)
-                    FishImage.Image = Resource1.karass;
+                    FishImage.Image = Resource1.KARASS;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Vimba)
-                    FishImage.Image = Resource1.ribec;
+                    FishImage.Image = Resource1.RIBEC;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Cancer)
-                    FishImage.Image = Resource1.rak;
+                    FishImage.Image = Resource1.RAK;
                 if (Player.getPlayer().fishlist[FishList.SelectedIndex] is Bream)
-                    FishImage.Image = Resource1.lesh;
+                    FishImage.Image = Resource1.LESH;
             }
             catch (ArgumentOutOfRangeException)
             {

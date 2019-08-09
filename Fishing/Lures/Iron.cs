@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace Fishing
 {
-    class Iron : Lure
+    sealed class Iron : Lure
     {
         public Iron(string name, LureType type, int count, int price, Bitmap pic) : base(name, type, count, price, pic)
         {

@@ -19,7 +19,7 @@ namespace Fishing
             {
                 for (int y = 0; y < 18; y++)
                 {
-                    LVL.Larr[x, y] = new Label()
+                    LVL.Deeparr[x, y] = new Label()
                     {
                         Left = 5 + x * 20,
                         Top = 350 + y * 20,
@@ -30,8 +30,8 @@ namespace Fishing
 
                     };
 
-                    Controls.Add(LVL.Larr[x, y]);
-                    LVL.Larr[x, y].MouseClick += GUI_MouseClick;
+                    Controls.Add(LVL.Deeparr[x, y]);
+                    LVL.Deeparr[x, y].MouseClick += GUI_MouseClick;
                 }
             }
             Sounder sounder = new Sounder(SounderPanel, SounderUpdater);
@@ -81,7 +81,7 @@ namespace Fishing
                     for (int y = 0; y < 18; y++)
                     {
                         Game.CastPoint = PointToClient(Cursor.Position);
-                        Point between = new Point(Game.CastPoint.X - LVL.Larr[x, y].Location.X, Game.CastPoint.Y - LVL.Larr[x, y].Location.Y);
+                        Point between = new Point(Game.CastPoint.X - LVL.Deeparr[x, y].Location.X, Game.CastPoint.Y - LVL.Deeparr[x, y].Location.Y);
                         float distance = (float)Math.Sqrt(between.X * between.X + between.Y * between.Y);
                     }
                 }

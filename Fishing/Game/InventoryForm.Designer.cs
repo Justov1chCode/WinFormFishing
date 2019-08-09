@@ -76,7 +76,7 @@
             // 
             // FLineBox
             // 
-            this.FLineBox.BackgroundImage = global::Fishing.Resource1.not_scaf;
+            this.FLineBox.BackgroundImage = global::Fishing.Resource1.NOT_SCAF;
             this.FLineBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.FLineBox.Location = new System.Drawing.Point(160, 202);
             this.FLineBox.Name = "FLineBox";
@@ -86,9 +86,9 @@
             // 
             // ReelBox
             // 
-            this.ReelBox.BackgroundImage = global::Fishing.Resource1.not_reel;
+            this.ReelBox.BackgroundImage = global::Fishing.Resource1.NOT_REEL;
             this.ReelBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ReelBox.InitialImage = global::Fishing.Resource1.not_reel;
+            this.ReelBox.InitialImage = global::Fishing.Resource1.NOT_REEL;
             this.ReelBox.Location = new System.Drawing.Point(160, 101);
             this.ReelBox.Name = "ReelBox";
             this.ReelBox.Size = new System.Drawing.Size(90, 95);
@@ -328,7 +328,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Fishing.Resource1.layer2;
+            this.BackgroundImage = global::Fishing.Resource1.LAYER1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(552, 650);
             this.Controls.Add(this.typeLabel);

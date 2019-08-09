@@ -24,8 +24,8 @@ namespace Fishing
             Type = type;
         }
         public static Road Titanium = new Road("Titanium", ROAD_TYPE.Spinning, 40000, 300000, Resource1.Titanium);
-        public static Road Achilles = new Road("Achilles", ROAD_TYPE.Spinning, 20000, 3000, Resource1.Achilles_233);
-        public static Road YSuperCarp = new Road("Yellow super Carp", ROAD_TYPE.Feeder, 100000, 600000, Resource1.Yellow_SuperCarp);
+        public static Road Achilles = new Road("Achilles", ROAD_TYPE.Spinning, 20000, 3000, Resource1.ACHILLES);
+        public static Road YSuperCarp = new Road("Yellow super Carp", ROAD_TYPE.Feeder, 100000, 600000, Resource1.YELLOW_SUPERCARP);
         public override string ToString() {
             return this.Name;
         }

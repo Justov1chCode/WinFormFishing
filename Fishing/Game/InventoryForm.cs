@@ -108,8 +108,8 @@ namespace Fishing
                 powerBox.Text = "-";
                 typeBox.Text = Item.LureInv[index].type.ToString();
                 pictureBox5.Image = Item.LureInv[index].pic;
-                nameBox.Text = Item.LureInv[index].Name;
-                countBox.Text = Item.LureInv[index].Count.ToString();
+                nameBox.Text = Item.LureInv[index].name;
+                countBox.Text = Item.LureInv[index].count.ToString();
             }
             catch (Exception) { }
         }

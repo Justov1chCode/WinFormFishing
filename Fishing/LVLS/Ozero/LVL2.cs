@@ -46,12 +46,12 @@ namespace Fishing
 
         public override Fish getFish()
         {
-                if((Player.getPlayer().lure is Wobbler || Player.getPlayer().lure is Iron) && Game.Deep > 300 )
+                if((Player.getPlayer().lure is Wobbler || Player.getPlayer().lure is Iron) && Game.Deep > 350 )
                 if (Game.CastPoint.Y > 400 && Game.CastPoint.Y < 800)
                 {
                     Game.ozeroForm.baitTimer.Interval = 5000;
                     Fish.CFish = lvl2.fishes[Game.randomFish.Next(1, 999)];
-                    if (LVL.isFishAttackAbble(Fish.CFish))
+                    if (isFishAttackAbble(Fish.CFish))
                     {
                         Game.isFishAttack = true;
                         Game.fishpowerX = Fish.CFish.power / Fish.CFish.weight;
@@ -74,24 +74,24 @@ namespace Fishing
                 for (int y = 0; y < 18; y++)
                 {
                 }
-                Larr[x, 0].Tag = 340;
-                Larr[x, 1].Tag = 340;
-                Larr[x, 2].Tag = 360;
-                Larr[x, 3].Tag = 380;
-                Larr[x, 4].Tag = 450;
-                Larr[x, 5].Tag = 500;
-                Larr[x, 6].Tag = 550;
-                Larr[x, 7].Tag = 600;
-                Larr[x, 8].Tag = 600;
-                Larr[x, 9].Tag = 540;
-                Larr[x, 10].Tag = 470;
-                Larr[x, 11].Tag = 440;
-                Larr[x, 12].Tag = 370;
-                Larr[x, 13].Tag = 320;
-                Larr[x, 14].Tag = 250;
-                Larr[x, 15].Tag = 200;
-                Larr[x, 16].Tag = 150;
-                Larr[x, 17].Tag = 150;
+                Deeparr[x, 0].Tag = 340;
+                Deeparr[x, 1].Tag = 340;
+                Deeparr[x, 2].Tag = 360;
+                Deeparr[x, 3].Tag = 380;
+                Deeparr[x, 4].Tag = 450;
+                Deeparr[x, 5].Tag = 500;
+                Deeparr[x, 6].Tag = 550;
+                Deeparr[x, 7].Tag = 600;
+                Deeparr[x, 8].Tag = 600;
+                Deeparr[x, 9].Tag = 540;
+                Deeparr[x, 10].Tag = 470;
+                Deeparr[x, 11].Tag = 440;
+                Deeparr[x, 12].Tag = 370;
+                Deeparr[x, 13].Tag = 320;
+                Deeparr[x, 14].Tag = 250;
+                Deeparr[x, 15].Tag = 200;
+                Deeparr[x, 16].Tag = 150;
+                Deeparr[x, 17].Tag = 150;
 
             }
         }                          //Устанавливаем глубину                         

@@ -88,7 +88,7 @@
             // 
             // LowerPanel
             // 
-            this.LowerPanel.BackgroundImage = global::Fishing.Resource1.layer2;
+            this.LowerPanel.BackgroundImage = global::Fishing.Resource1.LAYER1;
             this.LowerPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.LowerPanel.Controls.Add(this.SpeedBar);
             this.LowerPanel.Controls.Add(this.LeskaLabel);
@@ -182,7 +182,7 @@
             // UpperPanel
             // 
             this.UpperPanel.BackColor = System.Drawing.Color.Transparent;
-            this.UpperPanel.BackgroundImage = global::Fishing.Resource1.layer2;
+            this.UpperPanel.BackgroundImage = global::Fishing.Resource1.LAYER1;
             this.UpperPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.UpperPanel.Controls.Add(this.MenuLabel);
             this.UpperPanel.Controls.Add(this.InventoryLabel);

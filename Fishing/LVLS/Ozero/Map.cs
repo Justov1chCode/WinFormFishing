@@ -20,11 +20,6 @@ namespace Fishing
 
         private void Label1_Click(object sender, EventArgs e)
         {
-            //Game.ozeroForm.BackgroundImage = Resource1.ozero1;
-            //Game.ozeroForm.Show();
-            //LVLS.Ozero.LVL1.lvl1.SetDeep();
-            //LVLS.Ozero.LVL1.lvl1.addFishes();
-            //this.Close();
         }
 
         private void Label2_Click(object sender, EventArgs e)
@@ -38,9 +33,6 @@ namespace Fishing
 
         private void Label3_Click(object sender, EventArgs e)
         {
-            //Game.ozeroForm.Show();
-            //this.Close();
-            //Game.ozeroForm.BackgroundImage = Resource1.ozerolvl3;
         }
 
         private void Ozero_Load(object sender, EventArgs e)

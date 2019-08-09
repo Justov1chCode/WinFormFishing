@@ -76,11 +76,11 @@ namespace Fishing
             {
                 for (int y = 0; y < 18; y++)
                 {
-                    Point between = new Point(Game.CastPoint.X - LVL.Larr[x, y].Location.X, Game.CastPoint.Y - LVL.Larr[x, y].Location.Y);
+                    Point between = new Point(Game.CastPoint.X - LVL.Deeparr[x, y].Location.X, Game.CastPoint.Y - LVL.Deeparr[x, y].Location.Y);
                     float distance = (float)Math.Sqrt(between.X * between.X + between.Y * between.Y);
                     if (distance < 20)
                     {
-                        Game.gui.DeepLabel.Text = LVL.Larr[x, y].Tag.ToString();
+                        Game.gui.DeepLabel.Text = LVL.Deeparr[x, y].Tag.ToString();
                         Sounder.setY(x);
                         Sounder.setX(y);
                     }
@@ -187,11 +187,11 @@ namespace Fishing
                 for (int y = 0; y < 18; y++)
                 {
 
-                    Point between = new Point(Game.CastPoint.X - LVL.Larr[x, y].Location.X, Game.CastPoint.Y - LVL.Larr[x, y].Location.Y);
+                    Point between = new Point(Game.CastPoint.X - LVL.Deeparr[x, y].Location.X, Game.CastPoint.Y - LVL.Deeparr[x, y].Location.Y);
                     float distance = (float)Math.Sqrt(between.X * between.X + between.Y * between.Y);
                     if (distance < 20)
                     {
-                        Game.gui.DeepLabel.Text = LVL.Larr[x, y].Tag.ToString();
+                        Game.gui.DeepLabel.Text = LVL.Deeparr[x, y].Tag.ToString();
                         Sounder.setY(x);
                         Sounder.setX(y);
                     }
