@@ -27,7 +27,5 @@ namespace Fishing
             Price = price;
             Pict = pict;
         }
-
-
     }
 }

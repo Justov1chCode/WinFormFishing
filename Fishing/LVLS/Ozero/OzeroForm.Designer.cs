@@ -68,7 +68,6 @@
             this.Name = "OzeroForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fishing";
-            this.Load += new System.EventHandler(this.OzeroForm_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.OzeroForm_Paint);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OzeroForm_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.OzeroForm_KeyUp);

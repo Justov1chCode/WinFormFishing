@@ -55,24 +55,25 @@
     <Compile Include="Game\Game.cs" />
     <Compile Include="Fishes\ArcticChar.cs" />
     <Compile Include="Fishes\PinkSalmon.cs" />
-    <Compile Include="Game\GUI.cs">
+    <Compile Include="GUI\GUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\GUI.Designer.cs">
+    <Compile Include="GUI\GUI.Designer.cs">
       <DependentUpon>GUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="Game\CurrentFish.cs">
+    <Compile Include="FPond\CurrentFish.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\CurrentFish.Designer.cs">
+    <Compile Include="FPond\CurrentFish.Designer.cs">
       <DependentUpon>CurrentFish.cs</DependentUpon>
     </Compile>
-    <Compile Include="Game\FPondForm.cs">
+    <Compile Include="FPond\FPondForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\FPondForm.Designer.cs">
+    <Compile Include="FPond\FPondForm.Designer.cs">
       <DependentUpon>FPondForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Items\Item.cs" />
     <Compile Include="Items\Sounder.cs" />
     <Compile Include="LVLS\Ozero\OzeroForm.cs">
       <SubType>Form</SubType>
@@ -80,13 +81,12 @@
     <Compile Include="LVLS\Ozero\OzeroForm.Designer.cs">
       <DependentUpon>OzeroForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Game\InventoryForm.cs">
+    <Compile Include="Inventory\InventoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\InventoryForm.Designer.cs">
+    <Compile Include="Inventory\InventoryForm.Designer.cs">
       <DependentUpon>InventoryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Items\Item.cs" />
     <Compile Include="Lures\Iron.cs" />
     <Compile Include="Fishes\SilverCarp.cs" />
     <Compile Include="Fishes\Bream.cs" />
@@ -94,10 +94,10 @@
     <Compile Include="Lures\Lure.cs" />
     <Compile Include="LVLS\LVL.cs" />
     <Compile Include="LVLS\Ozero\LVL2.cs" />
-    <Compile Include="Game\Menu.cs">
+    <Compile Include="Menu\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\Menu.Designer.cs">
+    <Compile Include="Menu\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Fishes\Perch.cs" />
@@ -124,37 +124,37 @@
     <Compile Include="Fishes\Vimba.cs" />
     <Compile Include="Items\Road.cs" />
     <Compile Include="Fishes\Salmon.cs" />
-    <Compile Include="Game\SettingsForm.cs">
+    <Compile Include="Settings\SettingsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\SettingsForm.Designer.cs">
+    <Compile Include="Settings\SettingsForm.Designer.cs">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Game\Shop.cs">
+    <Compile Include="Shop\Shop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game\Shop.Designer.cs">
+    <Compile Include="Shop\Shop.Designer.cs">
       <DependentUpon>Shop.cs</DependentUpon>
     </Compile>
     <Compile Include="Game\Sounds.cs" />
     <Compile Include="Lures\Wobbler.cs" />
     <Compile Include="Fishes\Grayling.cs" />
-    <EmbeddedResource Include="Game\GUI.resx">
+    <EmbeddedResource Include="GUI\GUI.resx">
       <DependentUpon>GUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Game\CurrentFish.resx">
+    <EmbeddedResource Include="FPond\CurrentFish.resx">
       <DependentUpon>CurrentFish.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Game\FPondForm.resx">
+    <EmbeddedResource Include="FPond\FPondForm.resx">
       <DependentUpon>FPondForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LVLS\Ozero\OzeroForm.resx">
       <DependentUpon>OzeroForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Game\InventoryForm.resx">
+    <EmbeddedResource Include="Inventory\InventoryForm.resx">
       <DependentUpon>InventoryForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Game\Menu.resx">
+    <EmbeddedResource Include="Menu\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LVLS\Ozero\Map.resx">
@@ -173,10 +173,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Game\SettingsForm.resx">
+    <EmbeddedResource Include="Settings\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Game\Shop.resx">
+    <EmbeddedResource Include="Shop\Shop.resx">
       <DependentUpon>Shop.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -470,6 +470,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\inventory.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image011.jpg" />
+    <None Include="Resources\step2.png" />
+    <None Include="Resources\layer10.jpg" />
+    <None Include="Resources\layer6.jpg" />
+    <None Include="Resources\Sounder.png" />
+    <None Include="Resources\image011.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

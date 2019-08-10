@@ -259,6 +259,26 @@ namespace Fishing {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap layer10 {
+            get {
+                object obj = ResourceManager.GetObject("layer10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap layer6 {
+            get {
+                object obj = ResourceManager.GetObject("layer6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LESH {
             get {
                 object obj = ResourceManager.GetObject("LESH", resourceCulture);
@@ -472,6 +492,26 @@ namespace Fishing {
         internal static System.Drawing.Bitmap SEMGA {
             get {
                 object obj = ResourceManager.GetObject("SEMGA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sounder {
+            get {
+                object obj = ResourceManager.GetObject("Sounder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap step2 {
+            get {
+                object obj = ResourceManager.GetObject("step2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

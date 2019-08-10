@@ -29,6 +29,7 @@ namespace Fishing
             this.sounderUpdater = timer;
             timer.Tick += SounderUpdater_Tick;
             sounder.Paint += SounderPanel_Paint;
+            sounder.BackColor = Color.Gray;
         }
 
         private void SounderUpdater_Tick(object sender, EventArgs e)
@@ -44,12 +45,17 @@ namespace Fishing
             for (int i = 0; i < 17; i++)
             {
                 drawX2 = drawX + 10;
-                g.DrawLine(new Pen(Color.Black, 1), drawX, (int)LVL.Deeparr[Y, i].Tag / 10, drawX2,
-                                                                        (int)LVL.Deeparr[Y, i + 1].Tag / 10);
+                g.DrawLine(new Pen(Color.White, 2), drawX, (int)LVL.Deeparr[Y, i].Tag / 10, drawX2,
+                                                                            (int)LVL.Deeparr[Y, i + 1].Tag / 10);
                 drawX = drawX2;
             }
-            if (Player.getPlayer().lure.type == LureType.FlyingLarge 
-                            || Player.getPlayer().lure.type == LureType.FlyingSmall 
+            drawPoint(g);
+        }
+
+        private static void drawPoint(Graphics g)
+        {
+            if (Player.getPlayer().lure.type == LureType.FlyingLarge
+                            || Player.getPlayer().lure.type == LureType.FlyingSmall
                                         || Player.getPlayer().lure.type == LureType.FlyingXL)
             {
                 g.DrawEllipse(new Pen(Color.Black), X * 10, Game.Deep / 20, 3, 3);

@@ -9,7 +9,7 @@ namespace Fishing
 {
     class Pike : Fish
     {
-        public static HashSet<Lure> lures = new HashSet<Lure>() {Lure.vob1, Lure.vob4, Lure.jelezo1, Lure.jelezo3, Lure.jelezo4 };
+        public static HashSet<Lure> lures = new HashSet<Lure>() {Lure.vob1, Lure.vob4, Lure.jelezo3, Lure.jelezo4 };
         private static int Power = 5;
         private static string Name = "Щука";
         private static int Price = 1;

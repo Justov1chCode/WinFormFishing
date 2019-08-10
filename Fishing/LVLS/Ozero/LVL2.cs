@@ -51,7 +51,7 @@ namespace Fishing
                 {
                     Game.ozeroForm.baitTimer.Interval = 5000;
                     Fish.CFish = lvl2.fishes[Game.randomFish.Next(1, 999)];
-                    if (isFishAttackAbble(Fish.CFish))
+                    if (isFishAttackAbble(Fish.CFish) && Game.isBaitMoving)
                     {
                         Game.isFishAttack = true;
                         Game.fishpowerX = Fish.CFish.power / Fish.CFish.weight;

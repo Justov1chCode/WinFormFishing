@@ -17,6 +17,8 @@ namespace Fishing
             UpdateStyles();
             Game.currentFish = new CurrentFish();
             Game.gui = new GUI();
+            Game.gui.Show();
+            Game.gui.MoneyLabel.Text = Player.getPlayer().Money.ToString();
 
         }
         public void OzeroForm_Paint(object sender, PaintEventArgs e)
@@ -59,12 +61,6 @@ namespace Fishing
                 g.FillEllipse(sbrush, Game.CastPoint.X, Game.CastPoint.Y, 5, 5);
             }
         }           //Прорисовка объектов
-        private void OzeroForm_Load(object sender, EventArgs e)
-        {
-           
-            Game.gui.Show();
-            Game.gui.MoneyLabel.Text = Player.getPlayer().Money.ToString();
-        }                //Загрузка OzeroForm
         private void BaitTimer_Tick(object sender, EventArgs e)                   //Получаем рыбу,сходы
         {
             LVL2.lvl2.getFish();
@@ -191,9 +187,12 @@ namespace Fishing
                     float distance = (float)Math.Sqrt(between.X * between.X + between.Y * between.Y);
                     if (distance < 20)
                     {
-                        Game.gui.DeepLabel.Text = LVL.Deeparr[x, y].Tag.ToString();
-                        Sounder.setY(x);
-                        Sounder.setX(y);
+                        if (Player.getPlayer().lure != null)
+                        {
+                            Game.gui.DeepLabel.Text = LVL.Deeparr[x, y].Tag.ToString();
+                            Sounder.setY(x);
+                            Sounder.setX(y);
+                        }
                     }
                     Game.Deep = Convert.ToInt32(Game.gui.DeepLabel.Text);
                 }

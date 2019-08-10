@@ -10,11 +10,12 @@ namespace Fishing
     abstract class Fish
     {
         protected static Random randWigth = new Random();
-        public string name;
-        public int weight;
-        public int power;
-        public static Fish CFish;
-        public double price;
+        public string name { get; set; }
+        public int weight { get; set; }
+        public int power { get; set; }
+        public static Fish CFish { get; set; }
+        public double price { get; set; }
+
         public Fish(string name, int weight, int power, double price)
         {
             this.name = name;
